@@ -1,0 +1,75 @@
+$label-primary: #414141;
+$label-secondary: #7A7A7A;
+$label-tertiary: #B3B3B3;
+$label-quaternary: #EAEAEA;
+$label-five: #F7FFF1;
+
+$background-white: #FFFFFF;
+$background-gray: #F4F4F4;
+$background-black: #000000;
+
+$light-green: #C9EB7F;
+$main-green: #A0D17A;
+$dark-green: #87A96C;
+
+$error: #CF6767;
+$link: #676BCF;
+
+@mixin shadow {
+  box-shadow: 2px 0 20px rgba(0, 0, 0, 0.08);
+}
+
+@mixin title-1 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
+}
+
+@mixin title-2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+}
+
+@mixin text-1 {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 140%;
+}
+
+
+@mixin text-2 {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+@mixin text-2-bold {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+@mixin body-1 {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+@mixin body-1-bold {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+@mixin caption-1 {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 140%;
+}
+
+@mixin caption-1-bold {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 140%;
+}
